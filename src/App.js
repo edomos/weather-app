@@ -3,6 +3,8 @@ import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import NavButtons from './components/NavButtons';
 import Inputs from './components/Inputs';
 import TimeAndLocation from './components/TimeAndLocation';
+import TemperatureAndDetails from './components/TemperatureAndDetails';
+import Forecast from './components/Forecast';
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
       <NavButtons />
       <Inputs />
       <TimeAndLocation />
+      <TemperatureAndDetails />
+      <Forecast title="Hourly Forecast" />
+      <Forecast title="Daily Forecast" />
     </div>
   );
 }
